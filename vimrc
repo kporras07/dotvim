@@ -45,4 +45,5 @@ let delimitMate_expand_cr = 1
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist|local|client/bower_components)|(\.(swp|ico|git|svn))$'
 let g:ctrlp_working_path_mode = 'ra'
 let g:syntastic_typescript_tsc_args = '-t ES5 -m amd'
+let g:xmledit_enable_html = 1
 "let g:gitgutter_sign_column_always = 1
