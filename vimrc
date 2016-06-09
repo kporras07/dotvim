@@ -48,3 +48,6 @@ let g:syntastic_typescript_tsc_args = '-t ES5 -m amd'
 let g:syntastic_javascript_checkers = ['eslint']
 let g:xmledit_enable_html = 1
 "let g:gitgutter_sign_column_always = 1
+
+au BufRead,BufNewFile *.twig set syntax=htmljinja
+let g:syntastic_php_phpcs_args="--standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
